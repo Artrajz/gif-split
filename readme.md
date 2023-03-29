@@ -25,7 +25,7 @@ optional arguments:
   -m MODE, --mode MODE  default=RGB （图像模式默认为RGB，可选RGB|L|1）
   -f FILL, --fill FILL  default=0 （是否填充，0不填充|1黑色|2白色）
   -b BINARY_SCOPE, --binary_scope BINARY_SCOPE
-                        default=-1 （二值化范围，默认使用PIL库原版二值化,可选范围0-255）
+                        default=-1 （二值化范围，默认使用pil库原版二值化,可选范围0-255）
 ```
 
 ## 使用示例

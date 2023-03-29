@@ -98,11 +98,11 @@ def jpg2jpg():
                 im = im.resize((tw, th))
 
         if mode.upper() == "1":
-                if bs >=0 and b <=255:
-                    im = im.convert("L")
-                    im = im.point(lambda x: 0 if x<bs else 255, '1')
-                else:
-                    im = im.convert("1")
+            if bs >=0 and b <=255:
+                im = im.convert("L")
+                im = im.point(lambda x: 0 if x<bs else 255, '1')
+            else:
+                im = im.convert("1")
         else:  
             im = im.convert(mode.upper())
         
